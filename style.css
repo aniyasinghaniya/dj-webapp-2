@@ -1,0 +1,43 @@
+ #d2{
+    float:left;
+ }
+
+ #d3{
+    float:right;
+ }
+ img{
+    width: 300px;
+    height:250px;
+    border-radius:12px;
+ }
+ body{
+    background-image: url("https://img.freepik.com/premium-photo/dj-audio-mixer-controller-mixing-electronic-music-nightclub-party-selective-focus-2d-illustration_67092-1841.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color:darkkhaki;
+    font-family: 'Righteous', cursive;
+
+
+ }
+
+#b1{
+    background-color: darkkhaki;
+    color:black;
+    padding:10px;
+    border-radius:12px;
+    border-color: white;
+    margin-bottom:80px;
+
+
+}
+
+#d1{
+    background-color: darkslategray;
+    border-radius: 12px;
+    padding:12px;
+}
+canvas{
+    margin-top:200px;
+    border-radius:12px;
+}
