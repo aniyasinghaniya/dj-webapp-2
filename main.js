@@ -1,4 +1,4 @@
-song=""
+ song=""
 
 function preload(){
   song=loadSound("m.mp3")
@@ -77,6 +77,14 @@ function draw(){
     document.getElementById("speed").innerHTML="speed=2.5x";
     song.rate(2.5);
   }
+ }
+ if(scoreleftW >0){
+  circle(leftwristX,leftwristY,20);
+  num=Number(leftwristY);
+  remove_decimals=Math.floor(num);
+  volume=remove_decimals/300;
+ document.getElementById("volume").innerHTML ="volume"+volume;
+ song.setVolume(volume);
  }
 
 }
